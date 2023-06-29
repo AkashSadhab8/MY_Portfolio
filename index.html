@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T H E S K Y | Portfolio</title>
+  <link rel="stylesheet" href="Style4.css" />
+  <link rel="icon" type="image" href="images/fav.png" style="width: 1px;">
+  <script src="https://kit.fontawesome.com/41ada0641a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo"><img src="images/LOGO.png" /></h1>
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>I'm <span class="multiText"></span></h1>
+        <h5>
+          <h2>Turning vision into reality with code and design.</h2> <br />
+          As a skilled full-stack developer, I am dedicated to turning ideas
+          <br />
+          into innovative web applications. Explore my latest projects and
+          <br />
+          articles, showcasing my expertise in React.js and web development.
+        </h5>
+      </div>
+    </div>
+  </div>
+  <!-------------About------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/User6.png" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-tittle">About Me</h1>
+          <p>
+            Hi, I'm Akash Sadhab, a web developer and UI/UX designer with a
+            passion for creating beautiful, functional, and user-centered
+            digital experiences. I am always looking for new and innovative
+            ways to bring my
+            visions to life. I believe that design is about more than just
+            making things look pretty – it's about solving problems and
+            creating intuitive, enjoyable experiences for users. Whether I'm
+            working on a website, or other digital product, I
+            bring my commitment to design excellence and user-centered
+            thinking to every project I work on. I look forward to the
+            opportunity to bring my skills and passion to your next project.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Skilled in user research, wireframing, prototyping, and creating intuitive and
+                visually appealing user interfaces.</li>
+              <li><span>Web Development</span><br />Proficient in frontend web development with expertise in HTML, CSS,
+                and JavaScript. Experienced in creating responsive and visually appealing websites.</li>
+              <li>
+                <span>AI/ML Engineering</span><br />Proficient in machine learning concepts, Amazon SageMaker,
+                forecasting, computer vision, and natural language processing. Skilled in data processing, model
+                training, evaluation, and deployment.
+              </li>
+              <li><span>Cloud AWS</span><br />Cloud computing professional skilled in AWS. Strong knowledge of cloud
+                concepts, security, networking, storage, databases, architecture, and monitoring.</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023 [ June-Current ]</span><br />Currently interning @ Celebal Technologies, specializing in
+                React JS development. Gaining practical experience and enhancing skills in front-end web development.
+              </li>
+              <li><span>2023 [ May-June ]</span><br />Completed AI/ML and AWS Cloud Foundation internship @
+                AICTE approved Eduskills , gaining valuable industry experience.</li>
+              <li><span>2023 [ June-July]</span><br />Completed web development internship @ Bharat Intern, gaining
+                practical experience in building websites and web applications.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>Master of computer Application(MCA)[2022-2024]</span><br />Pursuing MCA degree at KIIT University
+                with a
+                remarkable aggregate percentage of 94%. Committed to academic excellence and eager to contribute in the
+                field of computer applications.
+
+              </li>
+              <li>
+                <span>Bachelor's of Science [2018-2021]</span><br />Graduated in Physics Honours from Utkal
+                University with a commendable aggregate of 73.5%.
+              </li>
+              <li>
+                <span>Intermediate in Science [2016-2018]</span><br />Completed intermediate in Science from DCC College
+                with a solid aggregate of 69%.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------services-------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            Experienced full stack web developer proficient in front-end and back-end development. Skilled in various
+            languages, frameworks, and databases, delivering dynamic and responsive web applications with a strong user
+            interface focus.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fas fa-microchip"></i>
+          <h2>AI/ML Engineering</h2>
+          <p>
+            As an AI/ML developer, I specialize in designing and implementing machine learning algorithms and models to
+            solve complex problems and optimize processes, leveraging data-driven insights for intelligent
+            decision-making and automation.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX</h2>
+          <p>
+            As a UI/UX designer, I specialize in creating intuitive and visually appealing user interfaces, focusing on
+            enhancing user experience and usability for digital products and applications.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!----------portfolio--------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/portfo.png" alt="" />
+          <div class="layer">
+            <h3>Portfolio Homepage</h3>
+            <p>
+              Welcome to my portfolio homepage! With a combination of HTML, CSS, and JavaScript, I have created an engaging and interactive
+              experience for visitors.</p>
+            <a href="https://akashsadhab8.github.io/PortfolioHomepage/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Weather.png" alt="" />
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>
+              The basic weather web app is a user-friendly tool that displays
+              current weather information such as temperature, weather
+              conditions, humidity, and wind speed for a specific location
+              entered by the user.
+            </p>
+            <a href="https://akashsadhab8.github.io/WeatherApp/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Calculator.png" alt="" />
+          <div class="layer">
+            <h3>Calculator App</h3>
+            <p>
+              The web app is a simple and efficient tool for
+              mathematical computations. Its straightforward and user-friendly interface makes it
+              a convenient solution for everyday calculations.
+            </p>
+            <a href="https://akashsadhab8.github.io/Calculator/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/AkashSadhab8?tab=repositories" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!---------------------contact------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <a href="mailto:akashkumarsadhab@gmail.com"><i class="fa-solid fa-paper-plane"></a></i>akashkumarsadhab@gmail.com
+          </p>
+          <p><a href="tel:+918339065244"><i class="fa-solid fa-phone"></i></a></i>8339065244</p>
+          <div class="social-icons">
+            <a href="https://twitter.com/akashcreations8"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/AkashSadhab8"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/akash-sadhab/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mr_sadhab/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="https://drive.google.com/file/d/1Oi3H1SJyQLnassZ0w7AKmARmlpeLhJ88/view?usp=drive_link" class="btn btn2">Resume</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="text" name="email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Made by ❤️ akashcreations © 2023 All rights reserved.</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multiText", {
+      strings: ["Coder", "Designer", "Developer"],
+      loop: true,
+      typespeed: 200,
+      backSpeed: 80,
+      backDelay: 1500,
+    });
+  </script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
