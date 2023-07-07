@@ -471,6 +471,9 @@ nav.fas {
   .contact-right {
     flex-basis: 100%;
   }
+  .contact-left,p{
+    font-size: 15px;
+  }
 
   .copyright {
     font-size: 8px;
