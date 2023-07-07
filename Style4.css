@@ -455,7 +455,7 @@ nav.fas {
   }
 
   .about-col-2 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
   }
 
@@ -463,17 +463,14 @@ nav.fas {
     font-size: 16px;
     margin-right: 20px;
   }
-   .services-list{
-    font-size : 14px;
-     font-weight: 500;
-  }
+
 
   .contact-left,
   .contact-right {
     flex-basis: 100%;
   }
    .contact-left,p{
-    font-size: 14px;
+    font-size: 16px;
      font-weight: 500;
   }
 
